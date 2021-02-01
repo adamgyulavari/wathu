@@ -14,4 +14,5 @@ const images = [
 
 const random = Math.floor(Math.random() * images.length)
 
-wat.setAttribute("src", `wat/${images[random]}`)
+watbg.setAttribute("src", `wat/${images[random]}`)
+watmain.setAttribute("src", `wat/${images[random]}`)

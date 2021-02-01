@@ -11,11 +11,28 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
+      position: relative;
+      background: black;
+    }
+    img {
+      position: absolute;
+    }
+    .main {
+      max-width: 90vw;
+      box-shadow: 0 0 20px 0 
+    }
+    .bg {
+      width: 120vw;
+      height: 120vh;
+      filter: blur(10px);
+      opacity: 0.4;
+      object-fit: cover;
     }
   </style>
 </head>
 <body>
-  <img src="wat.jpg" alt="wat" id="wat">
+  <img src="wat.jpg" alt="wat" id="watbg" class="bg">
+  <img src="wat.jpg" alt="wat" id="watmain" class="main">
   <script src="scripts.js"></script>
 </body>
 </html>
